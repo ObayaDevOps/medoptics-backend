@@ -1,3 +1,33 @@
+# Strapi Generic Backend
+
+This is a template for a user configurable website (similar to wordpress) with a remote headless CMS (Content Management System). It uses a Postgres database to store the conetnt which will be served to a front end over an API.
+
+In this CMS, there is an 'admin panel' that allows users to drag and drop components and build 'content structures' to apply to any domain ( restaurant reviews, blog posts, etc)
+
+
+
+Notes: Configuration
+    - A '.env' file will need to be created to store (Fake):
+        HOST=X.X.X.X
+        PORT=1337
+        APP_KEYS=c/HjKqA6XXXXXvrIpFk6Q==,jbeO4SlLlxXXXXXsaTTA==,XXXXXxJBBT62XtChx0ipA==,SXXXxC9QUFFMI/BVncwMQ==
+        API_TOKEN_SALT=bGiDDGHHd6YleaPsI4z+Q==
+        ADMIN_JWT_SECRET=VDGBCXv8WmRj1vlRUoGQ5A==
+        JWT_SECRET=yQql2JDDDsVeR+Dz0ZfA==
+
+
+
+# Key Guides
+
+# Heroku Deployment
+https://docs.strapi.io/developer-docs/latest/setup-deployment-guides/deployment/hosting-guides/heroku.html#_10-deploy
+
+https://strapi.io/blog/strapi-starter-next-corporate-site
+
+
+
+
+
 # 🚀 Getting started with Strapi
 
 Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html) (CLI) which lets you scaffold and manage your project in seconds.
@@ -55,3 +85,7 @@ Feel free to check out the [Strapi GitHub repository](https://github.com/strapi/
 ---
 
 <sub>🤫 Psst! [Strapi is hiring](https://strapi.io/careers).</sub>
+
+
+
+
